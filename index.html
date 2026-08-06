@@ -1,1 +1,175 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DRIP DISTRICT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:#111;color:#fff;}
+header{
+background:#000;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00d084;
+}
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+}
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=1600') center/cover;
+}
+.hero h1{
+font-size:60px;
+}
+.hero p{
+margin:20px;
+font-size:20px;
+}
+.btn{
+background:#00d084;
+padding:15px 30px;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+border-radius:8px;
+}
+section{
+padding:70px 10%;
+}
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+.card{
+background:#1d1d1d;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+.card img{
+width:100%;
+border-radius:10px;
+}
+.price{
+color:#00d084;
+font-size:22px;
+margin-top:10px;
+}
+.offer{
+background:#00d084;
+color:#000;
+text-align:center;
+padding:40px;
+font-size:28px;
+font-weight:bold;
+}
+footer{
+background:#000;
+padding:30px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">DRIP DISTRICT</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Collection</a>
+<a href="#">Offers</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Wear Different.</h1>
+<h2>Premium Fashion • Affordable Prices</h2>
+<p>New Collection | Shirts | T-Shirts | Jeans | Lowers</p>
+
+<a class="btn" href="#">Shop Now</a>
+</section>
+
+<section>
+<h2 style="margin-bottom:30px;">Featured Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500">
+<h3>Premium Shirt</h3>
+<p class="price">₹350</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723?w=500">
+<h3>Oversized T-Shirt</h3>
+<p class="price">₹300</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500">
+<h3>Jeans</h3>
+<p class="price">₹600-800</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506629905607-d9d8e4d6c5b5?w=500">
+<h3>Lowers</h3>
+<p class="price">₹350-500</p>
+</div>
+
+</div>
+</section>
+
+<div class="offer">
+🔥 Combo Offer – Any 2 Items @ ₹899 🔥
+</div>
+
+<section>
+<h2>Why Choose Us?</h2>
+
+<br>
+
+<p>✔ Premium Quality</p>
+<p>✔ Affordable Prices</p>
+<p>✔ Latest Streetwear Collection</p>
+<p>✔ Home Delivery Available</p>
+</section>
+
+<footer>
+
+<h2>DRIP DISTRICT</h2>
+
+<p>Wear Different • Classy at Affordable Prices</p>
+
+<br>
+
+<p>Instagram: @dripdistrict</p>
+
+<p>WhatsApp: +91 XXXXX XXXXX</p>
+
+</footer>
+
+</body>
+</html>
